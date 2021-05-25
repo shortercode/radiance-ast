@@ -1,7 +1,7 @@
 {
   "name": "@radlang/ast",
   "description": "Type definitions for the Radiance AST format",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "cjs/index.js",
   "module": "mjs/index.mjs",
   "types": "mjs/index.d.ts",
