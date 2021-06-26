@@ -55,8 +55,7 @@ export interface LetDeclaration extends Node<'let_declaration'> {
 	description: ValueDescription;
 }
 
-export type Statement = ExpressionStatement
-	| ReturnStatement
+export type Declaration = 
 	| FunctionDeclaration
 	| StructDeclaration
 	| EnumDeclaration
@@ -64,4 +63,9 @@ export type Statement = ExpressionStatement
 	| ImportFunctionDeclaration
 	| TypeDeclaration
 	| LetDeclaration;
+
+export type Statement = 
+	| ExpressionStatement
+	| ReturnStatement
+	| Declaration;
 	
